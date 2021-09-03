@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // Generating random number
-        int myNumber = (int)Math.random() * 100;
+        int myNumber = (int)(Math.random() * 100);
 
         // Initializing user input
         int userNumber = 0;
@@ -25,6 +25,7 @@ public class Main {
             } else {
                 System.out.println("Your guess is too small");
             }
+
         }
             while (userNumber >= 0) ;
 
